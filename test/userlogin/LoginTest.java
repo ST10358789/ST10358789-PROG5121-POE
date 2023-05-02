@@ -33,7 +33,7 @@ public class LoginTest {
     }
     @Test
     public void testCheckPasswordComplexity_() {
-    assertEquals(true,objUser.checkPasswordComplexity("password"));
+    assertEquals(false,objUser.checkPasswordComplexity("password"));
     }   
     @Test
     public void testRegisterUser() {
